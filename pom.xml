@@ -4,14 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.boot.spring.study</groupId>
-    <artifactId>boot_parent</artifactId>
-<version>1.0</version>
+    <groupId>com.boot.spring</groupId>
+    <artifactId>springboot_parent</artifactId>
     <packaging>pom</packaging>
-<modules>
-    <module>dubbo_provider</module>
-    <module>dubbo_consumer</module>
-    <module>dubbo_api</module>
-</modules>
+    <version>1.0</version>
+    <modules>
+        <module>dubbo_api</module>
+        <module>dubbo_provider</module>
+        <module>dubbo_consumer</module>
+    </modules>
+
 
 </project>

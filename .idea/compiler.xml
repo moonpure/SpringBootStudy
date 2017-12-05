@@ -11,8 +11,8 @@
         <module name="dubbo_provider" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="dubbo_api" target="1.8" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="dubbo_api" target="1.5" />
       <module name="dubbo_consumer" target="1.8" />
       <module name="dubbo_provider" target="1.8" />
       <module name="SpringBootStudy" target="1.5" />

@@ -6,7 +6,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo_provider/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo_consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbo_api/pom.xml" />
       </list>
     </option>
   </component>
