@@ -18,7 +18,8 @@
 
     <!-- 暴露服务 -->
     <dubbo:protocol name="${dubbo.protocol.name}" port="-1" />
+    <bean id="dubboService" class="com.boot.spring.dubbo_provider.serviceimpl.DubboExampleServiceImpl"></bean>
 
-    <dubbo:service interface="com.chengli.springboot.example.service.ExampleService"
-                   ref="exampleServiceImpl" retries="0" timeout="500" />
+    <dubbo:service interface="com.boot.spring.dubbo_api.DubboExampleService"
+                   ref="dubboService" retries="0" timeout="500" />
 </beans>
