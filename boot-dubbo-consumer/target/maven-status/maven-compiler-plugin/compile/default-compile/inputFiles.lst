@@ -1,2 +1,4 @@
 /project/Study/springboot-dubbo/boot-dubbo-consumer/src/main/java/com/boot/controller/TestController.java
 /project/Study/springboot-dubbo/boot-dubbo-consumer/src/main/java/com/boot/ConsumerApplication.java
+/project/Study/springboot-dubbo/boot-dubbo-consumer/src/main/java/com/boot/bravedubbo/TraceProperties.java
+/project/Study/springboot-dubbo/boot-dubbo-consumer/src/main/java/com/boot/bravedubbo/TraceAutoConfiguration.java

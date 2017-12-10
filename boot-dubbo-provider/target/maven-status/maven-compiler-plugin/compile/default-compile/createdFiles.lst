@@ -1,4 +1,6 @@
 com/boot/service/impl/TestServiceImpl.class
-com/boot/core/ZipkinProperties.class
-com/boot/core/ZipkinConfig.class
+com/boot/bravedubbo/TraceAutoConfiguration$1.class
+com/boot/bravedubbo/TraceProperties.class
+com/boot/bravedubbo/TraceAutoConfiguration$2.class
 com/boot/ProviderApplication.class
+com/boot/bravedubbo/TraceAutoConfiguration.class

@@ -11,6 +11,6 @@
     <dubbo:monitor protocol="registry" ></dubbo:monitor>
     <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
     <dubbo:annotation package="com.boot.controller"/>
-    <dubbo:consumer timeout="1000" check="false" mock="return null"  retries="0" async="true"></dubbo:consumer>
+    <dubbo:consumer timeout="1000" check="false" mock="return null"  retries="0" ></dubbo:consumer>
     <!--<dubbo:reference id="exampleService" interface="com.boot.service.TestService" />-->
 </beans>

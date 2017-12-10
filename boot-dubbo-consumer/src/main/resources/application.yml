@@ -1,3 +1,11 @@
 server:
-  port: 8098
+  port: 8088
   context-path: /
+zipkin:
+  serviceName: dubboconsumer
+  zipkinurl: http://127.0.0.1:9411/api/v2/spans
+  connectTimeout: 6000
+  readTimeout: 6000
+  flushInterval: 1
+  compressionEnabled: true
+  rate: 1.0

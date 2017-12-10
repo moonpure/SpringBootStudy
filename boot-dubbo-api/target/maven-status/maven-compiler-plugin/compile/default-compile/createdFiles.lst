@@ -1,6 +1,2 @@
-com/boot/bravedubbo/TraceAutoConfiguration$2.class
-com/boot/service/TestService.class
-com/boot/bravedubbo/TraceAutoConfiguration$1.class
-com/boot/bravedubbo/TraceAutoConfiguration.class
-com/boot/bravedubbo/TraceProperties.class
 com/boot/domain/User.class
+com/boot/service/TestService.class

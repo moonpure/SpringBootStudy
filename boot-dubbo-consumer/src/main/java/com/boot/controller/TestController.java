@@ -20,25 +20,26 @@ public class TestController {
     @GetMapping("hello")
     public String hello() {
         //@Reference
-      return   testService.sayHello("Hello springboot and dubbo!");
+        String restr=testService.sayHello("Hello springboot and dubbo!");
+      return   restr;
 
     }
 
     @GetMapping("user")
     public User user() {
 
-            testService.sayHello("Hello springboot and dubbo!");
-        User person=null;//=testService.findUser();
+          //  testService.sayHello("Hello springboot and dubbo!");
+        User person=testService.findUser();
        // System.err.println("立即返回的为null:"+person);
         //拿到调用的Future引用，当结果返回后，会被通知和设置到此Future。
-        try {
-            Future<User> pFuture = RpcContext.getContext().getFuture();
-            person = pFuture.get();
-        }
-        catch (Exception ex)
-        {
-
-        }
+//        try {
+//            Future<User> pFuture = RpcContext.getContext().getFuture();
+//            person = pFuture.get();
+//        }
+//        catch (Exception ex)
+//        {
+//
+//        }
             return person;
 
     }
