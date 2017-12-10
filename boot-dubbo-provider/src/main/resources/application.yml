@@ -1,0 +1,11 @@
+# 在这里编写springboot的配置信息
+server
+  port: 8080
+zipkin
+  serviceName: service-start
+  zipkinurl: http://localhost:9411
+  connectTimeout: 6000
+  readTimeout: 6000
+  flushInterval: 1
+  compressionEnabled: true
+  rate: 1.0

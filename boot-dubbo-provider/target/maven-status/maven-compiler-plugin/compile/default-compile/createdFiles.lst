@@ -1,0 +1,4 @@
+com/boot/service/impl/TestServiceImpl.class
+com/boot/core/ZipkinProperties.class
+com/boot/core/ZipkinConfig.class
+com/boot/ProviderApplication.class
